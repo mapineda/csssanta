@@ -1,0 +1,9 @@
+html, body {
+	background:#FFF1C8;
+}
+ .santa {
+ 	position: relative;
+ 	width: 324px;
+ 	height: 360px;
+ 	margin: 100px, auto 0;
+ }
