@@ -7,3 +7,14 @@ html, body {
  	height: 360px;
  	margin: 100px, auto 0;
  }
+
+ /* HAT */
+ .hat {
+ 	position:absolute;
+ 	top:16px;
+ 	right:39px;
+ 	width: 101px;
+ 	height: 101px;
+ 	border-radius: 0, 0, 100px 0;
+ 	background:#E64604;
+ }
