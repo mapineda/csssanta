@@ -18,3 +18,65 @@ html, body {
  	border-radius: 0, 0, 100px 0;
  	background:#E64604;
  }
+
+ /*HEAD */
+
+ .head {
+ 	width: 202px;
+ 	height: 201px;
+ 	border-radius: 100%;
+ 	right:40px;
+ 	top: 17px;
+ 	position: absolute;
+ 	z-index: 1;
+ 	background-color: white;
+ }
+
+.face {
+	width: 160px;
+ 	height: 159px;
+ 	border-radius: 100%;
+ 	right:22px;
+ 	top: 20px;
+ 	position: absolute;
+ 	z-index: 1;
+ 	background-color: #fdf5d6;
+
+}
+
+.ear-left {
+
+
+}
+
+.ear-right {
+
+}
+
+.eye-left {
+	width: 15px;
+	height: 14px;
+	border-radius: 100%;
+	position: absolute;
+	left: 115px;
+	top: 71px;
+	z-index: 2;
+	background-color: #69cbf5;
+
+}
+
+.eye-right {
+	width: 15px;
+	height: 14px;
+	border-radius: 100%;
+	position: absolute;
+	left: 70px;
+	top: 71px;
+	z-index: 3;
+	background-color: #69cbf5;
+
+}
+
+.nose {
+
+}
