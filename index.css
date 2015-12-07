@@ -1,8 +1,7 @@
 body,
 .santa,
 .hand.left::before{
-	background: url(https://wallpaperscraft.com/image/minimalism_sky_clouds_sun_mountains_lake_landscape_95458_1920x1080.jpg);
-}
+	background:#FFF1C8}
 
 .santa{
 	position:relative;
