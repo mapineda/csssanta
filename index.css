@@ -1,7 +1,8 @@
 body,
 .santa,
 .hand.left::before{
-	background:#FFF1C8}
+	background: url(https://wallpaperscraft.com/image/minimalism_sky_clouds_sun_mountains_lake_landscape_95458_1920x1080.jpg);
+}
 
 .santa{
 	position:relative;
@@ -269,6 +270,9 @@ background:-webkit-linear-gradient(left, #391100 0%, #391100 15.5%, transparent 
 	top:-23px
 }
 
+.col-sm-3 {
+	padding: 20px;
+}
 
 /*ELF*/
 
