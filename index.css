@@ -36,6 +36,7 @@ body,
 	border-radius:0 15px 0 15px
 }
 
+/*ELF HAT*/
 .tophat {
 	width:101px;
 	height:101px;
@@ -61,7 +62,7 @@ body,
 	border-radius:0 15px 0 15px
 }
 
-/*HEAD*/
+/*SANTA HEAD*/
 .head{
 	width:202px;
 	height:201px;
@@ -71,7 +72,24 @@ body,
 	position:absolute;
 	z-index:1;
 background:linear-gradient(to bottom, #F0E5D8 0%, #F0E5D8 50%, #fff 50%, #fff 100%);
-background:-webkit-linear-gradient(top, #F0E5D8 0%, #F0E5D8 50%, #fff 50%, #fff 100%);}
+background:-webkit-linear-gradient(top, #F0E5D8 0%, #F0E5D8 50%, #fff 50%, #fff 100%);
+}
+
+/*ELF HEAD*/
+.elfhead{
+	width:202px;
+	height:201px;
+	border-radius:100%;
+	right:40px;
+	top:17px;
+	position:absolute;
+	z-index:1;
+background:linear-gradient(to bottom, #F0E5D8 0%, #F0E5D8 50%, #fff 50%, #fff 100%);
+background:-webkit-linear-gradient(top, #F0E5D8 0%, #F0E5D8 50%, #fff 50%, #fff 100%);
+}
+
+
+/*SANTA FACE*/
 
 .face{
 	width:136px;
@@ -102,6 +120,40 @@ background:-webkit-linear-gradient(left, #F1C1A0 0%, #F1C1A0 50%, #F4D1B9 50%, #
 	right:-31px
 }
 
+
+/*ELF FACE*/
+
+.elface{
+	width:136px;
+	height:68px;
+	background:#008000;
+	border-radius:68px 68px 0 0;
+	position:absolute;
+	left:33px;
+	top:32px;
+	z-index:-1;
+	overflow:hidden;
+background:linear-gradient(to right, #F1C1A0 0%, #F1C1A0 50%, #F1C1A0 50%, #F4D1B9 100%);
+background:-webkit-linear-gradient(left, #F1C1A0 0%, #F1C1A0 50%, #F4D1B9 50%, #F4D1B9 100%);}
+.elface::before,
+.elface::after{
+	content:'';
+	display:block;
+	width:66px;
+	height:33px;
+	background:#F49598;
+	border-radius:33px 33px 0 0;
+	position:absolute;
+	top:35px;
+	left:-31px;
+}
+.elface::after{
+	left:auto;
+	right:-31px
+}
+
+
+/*SANTA EYES NOSE */
 .eye,
 .nose{
 	width:14px;
@@ -160,8 +212,9 @@ ms;-webkit-transition:all 400ms
 	margin-left:7px
 }
 
+/*ELF EYES NOSE*/
 
-/*BODY*/
+/*SANTA BODY*/
 .body{
 	background:#E64604;
 	width:202px;
@@ -181,6 +234,31 @@ ms;-webkit-transition:all 400ms
 	top:73px;
 	left:78px;
 }
+
+/*ELF BODY*/
+
+.elfbody{
+	background:#007f52;
+	width:202px;
+	height:201px;
+	border-radius:45% 45% 43% 42% / 42% 42% 37% 37%;
+    bottom:17px;
+    right:40px;
+    position:absolute;
+}
+
+.elfbody::before{
+	content:'';
+	width:45px;
+	height:17px;
+	background:#F0E5D8;
+	position:absolute;
+	top:73px;
+	left:78px;
+}
+
+
+/*HAND*/
 
 .hand{
 	position:absolute;
