@@ -71,7 +71,20 @@ body,
 	position:absolute;
 	z-index:1;
 background:linear-gradient(to bottom, #F0E5D8 0%, #F0E5D8 50%, #fff 50%, #fff 100%);
-background:-webkit-linear-gradient(top, #F0E5D8 0%, #F0E5D8 50%, #fff 50%, #fff 100%);}
+background:-webkit-linear-gradient(top, #F0E5D8 0%, #F0E5D8 50%, #fff 50%, #fff 100%);
+}
+
+.elfhead{
+	width:202px;
+	height:201px;
+	border-radius:100%;
+	right:40px;
+	top:17px;
+	position:absolute;
+	z-index:1;
+background:linear-gradient(to bottom, #F0E5D8 0%, #F0E5D8 50%, #fff 50%, #fff 100%);
+background:-webkit-linear-gradient(top, #F0E5D8 0%, #F0E5D8 50%, #fff 50%, #fff 100%);
+}
 
 .face{
 	width:136px;
@@ -98,6 +111,35 @@ background:-webkit-linear-gradient(left, #F1C1A0 0%, #F1C1A0 50%, #F4D1B9 50%, #
 	left:-31px;
 }
 .face::after{
+	left:auto;
+	right:-31px
+}
+
+.elface{
+	width:136px;
+	height:68px;
+	background:#008000;
+	border-radius:68px 68px 0 0;
+	position:absolute;
+	left:33px;
+	top:32px;
+	z-index:-1;
+	overflow:hidden;
+background:linear-gradient(to right, #F1C1A0 0%, #F1C1A0 50%, #F1C1A0 50%, #F4D1B9 100%);
+background:-webkit-linear-gradient(left, #F1C1A0 0%, #F1C1A0 50%, #F4D1B9 50%, #F4D1B9 100%);}
+.elface::before,
+.elface::after{
+	content:'';
+	display:block;
+	width:66px;
+	height:33px;
+	background:#F49598;
+	border-radius:33px 33px 0 0;
+	position:absolute;
+	top:35px;
+	left:-31px;
+}
+.elface::after{
 	left:auto;
 	right:-31px
 }
