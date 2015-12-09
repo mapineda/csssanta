@@ -3,7 +3,7 @@ body,
 .hand.left::before{
 	background:#FFF1C8}
 
-.santa{
+.santa, .elf{
 	position:relative;
 	width:334px;
 	height:360px;
@@ -32,6 +32,31 @@ body,
 	right:-30px
 }
 .hat::after{
+	top:0;
+	border-radius:0 15px 0 15px
+}
+
+.tophat {
+	width:101px;
+	height:101px;
+	border-radius:0 0 100px 0;
+	background:#007f52;
+	position:absolute;
+	top:16px;
+	right:39px
+}
+.tophat::before,
+.tophat::after{
+	content:'';
+	background:#fff;
+	width:30px;
+	height:16px;
+	border-radius:15px 0 15px 0;
+	position:absolute;
+	top:-15px;
+	right:-30px
+}
+.tophat::after{
 	top:0;
 	border-radius:0 15px 0 15px
 }
